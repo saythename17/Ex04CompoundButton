@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/fruit">
+
+    <CheckBox
+        android:id="@+id/cb01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mango"/>
+    <CheckBox
+        android:id="@+id/cb02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watermelon"/>
+    <CheckBox
+        android:id="@+id/cb03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Strawberry"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:onClick="clickButton"/>
+
+
+
+    <ToggleButton
+        android:id="@+id/toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="배고픔"
+        android:textOn="배불렁"/>
+    <Switch
+        android:id="@+id/sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound"/>
+    <TextView
+        android:id="@+id/tv"
+        android:text="result"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/fruit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
